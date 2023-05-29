@@ -1,7 +1,6 @@
 import { PromptService } from "./../../core/prompt/prompt.service";
 import { ChildProcessWithoutNullStreams, spawn } from "child_process";
 import { CommandExecutor } from "../../core/executor/command.executor";
-import { ICommandExec } from "../../core/executor/command.types";
 import { IStreamLogger } from "../../core/handlers/stream-logger.interface";
 import { ICommandExecFfmpeg, IFfmpegInput } from "./ffmpeg.types";
 import { FileService } from "../../core/files/files.service";
